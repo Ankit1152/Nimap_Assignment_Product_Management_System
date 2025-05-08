@@ -46,7 +46,7 @@ The **Product Management System** is a backend system designed to manage a colle
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `POST` | `/api/products` | Create a new product |
-| `GET` | `/api/products?page=0&size=5` | Get paginated list of products |
+| `GET` | `/api/products?page=1` | Get paginated list of products |
 | `GET` | `/api/products/{id}` | Get a single product with category info |
 | `PUT` | `/api/products/{id}` | Update a product |
 | `DELETE` | `/api/products/{id}` | Delete a product |
@@ -55,7 +55,7 @@ The **Product Management System** is a backend system designed to manage a colle
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `POST` | `/api/categories` | Create a new category |
-| `GET` | `/api/categories?page=0&size=5` | Get paginated list of categories |
+| `GET` | `/api/categories?page=1` | Get paginated list of categories |
 | `GET` | `/api/categories/{id}` | Get a single category |
 | `PUT` | `/api/categories/{id}` | Update a category |
 | `DELETE` | `/api/categories/{id}` | Delete a category |
