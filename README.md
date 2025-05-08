@@ -45,20 +45,20 @@ The **Product Management System** is a backend system designed to manage a colle
 ### 🔹 Product APIs
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| `POST` | `/api/products` | Create a new product |
-| `GET` | `/api/products?page=1` | Get paginated list of products |
-| `GET` | `/api/products/{id}` | Get a single product with category info |
-| `PUT` | `/api/products/{id}` | Update a product |
-| `DELETE` | `/api/products/{id}` | Delete a product |
+| `POST` | `http://localhost:8080/api/products` | Create a new product |
+| `GET` | `http://localhost:8080/api/products?page=2` | Get All the products |
+| `GET` | `http://localhost:8080/api/products/{id}` | Get a single product by Id |
+| `PUT` | `http://localhost:8080/api/products/{id}` | Update a product by Id |
+| `DELETE` | `http://localhost:8080/api/products/{id}` | Delete a product by Id |
 
 ### 🔹 Category APIs
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| `POST` | `/api/categories` | Create a new category |
-| `GET` | `/api/categories?page=1` | Get paginated list of categories |
-| `GET` | `/api/categories/{id}` | Get a single category |
-| `PUT` | `/api/categories/{id}` | Update a category |
-| `DELETE` | `/api/categories/{id}` | Delete a category |
+| `POST` | `http://localhost:8080/api/categories` | Create a new category |
+| `GET` | `http://localhost:8080/api/categories?page=1` | Get All the Categories |
+| `GET` | `http://localhost:8080/api/categories/{id}` | Get a single category by Id |
+| `PUT` | `http://localhost:8080/api/categories/{id}` | Update a category by Id |
+| `DELETE` | `http://localhost:8080/api/categories/{id}` | Delete a category by Id|
 
 ---
 
